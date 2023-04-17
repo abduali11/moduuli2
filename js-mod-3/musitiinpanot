@@ -1,0 +1,22 @@
+
+
+
+alert("lataa kuva")
+document.querySelectorAll("img").src="kuvan linkki"
+
+
+document.querySelectorAll("img").style.display ="display; hidden";
+
+
+
+//eventit
+//sidotaan eventti p elementtiin
+
+
+document.querySelector("p").addEventListener("click", function (){
+  // näytetään kuva painamalla minne tahansa
+  document.querySelector("img").style.display="block";
+})
+
+
+// jos käytät eventtejä käytä add.EventListener
